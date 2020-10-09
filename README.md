@@ -21,12 +21,14 @@ Add these useful resources and some basic information to the index.html !
 
 ### Follow these simple steps:
 
-1. Fork this repository
-2. Clone the repository 
-3. Open the index.html 
-4. Copy the required and add information
-5. Push The changes
-6. Create the Pull Request!
+1. Fork this repository.
+2. Clone the repository.
+3. Create A new branch. 
+4. Open the index.html 
+5. Copy the required and add information.
+6. Commit Changes.
+7. Push The changes
+8. Create the Pull Request!
 
 > Wait for the request to be merged. Till then celebrate for contributing 🥳 🥳 
 
