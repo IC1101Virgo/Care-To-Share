@@ -1,5 +1,5 @@
-# Care-To-Share
-Repository where we share our resources! 
+# Care-To-Share?
+Site where we share our resources! 
 
 ## Visit The site [by clicking here](https://ic1101virgo.github.io/Care-To-Share/) 
 
