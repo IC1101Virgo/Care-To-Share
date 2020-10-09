@@ -17,7 +17,7 @@ These resources can be anything:
 - Courses 🔢 
 - Anything of your choice 😃 
 
-Add these useful resources and some basic information to the Issue_Resource_Template ! 
+Add these useful resources and some basic information to the index.html ! 
 
 ### Follow these simple steps:
 
