@@ -23,7 +23,7 @@ Add these useful resources and some basic information to the Issue_Resource_Temp
 
 1. Fork this repository
 2. Clone the repository 
-3. Open the Issue_Resource_Template 
+3. Open the index.html 
 4. Copy the required and add information
 5. Push The changes
 6. Create the Pull Request!
