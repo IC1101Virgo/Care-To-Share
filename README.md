@@ -6,6 +6,11 @@ Site where we share our review!
 ### Hello Contributor! 👋 
 We all know sharing is caring. This issue is meant for the same purpose. 🌷 
 We invite all the techies 😎 , enthusiast 😸 , and newbies 🤩 to share your review of atleast any two resource(you can share as many as you want). We are a big family here and your opinion counts😉 
+
+### Write the Review!
+Tell everyone why you liked the resource and what it taught you. This will give others an idea of what they should expect from your resource and how helpful can it be.
+
+
 This issue is meant for all whether it's your first pull request 🎊  or you are a frequent visitor 💃 
 
 These review can be of anything:
