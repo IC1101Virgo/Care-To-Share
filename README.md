@@ -1,14 +1,14 @@
 # Care-To-Share?
-Site where we share our resources! 
+Site where we share our review! 
 
 ## Visit The site [by clicking here](https://ic1101virgo.github.io/Care-To-Share/) 
 
 ### Hello Contributor! 👋 
 We all know sharing is caring. This issue is meant for the same purpose. 🌷 
-We invite all the techies 😎 , enthusiast 😸 , and newbies 🤩 to share your resources. We are a big family here and every help counts 😉 
+We invite all the techies 😎 , enthusiast 😸 , and newbies 🤩 to share your review of atleast anyone resource(you can share as many as you want). We are a big family here and your opinion counts😉 
 This issue is meant for all whether it's your first pull request 🎊  or you are a frequent visitor 💃 
 
-These resources can be anything:
+These review can be of anything:
 
 - A good book 📖 
 - A blog/s ✍️ 
@@ -17,7 +17,7 @@ These resources can be anything:
 - Courses 🔢 
 - Anything of your choice 😃 
 
-Add these useful resources and some basic information to the index.html ! 
+Add these useful review and some basic information to the index.html ! 
 
 ### Follow these simple steps:
 
