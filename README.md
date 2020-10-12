@@ -23,6 +23,8 @@ These review can be of anything:
 - Anything of your choice 😃 
 
 Add these useful review and some basic information to the index.html ! 
+### How to make a Pull Request?
+It is requested to provide your Pull Request with proper heading and also provide a description of changes made by you.
 
 ### Follow these simple steps:
 
