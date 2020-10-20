@@ -4,18 +4,25 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <style>
-    body {
-      background-color: #52e0d9;
-    }
-    </style>
+    <link rel="stylesheet" type="text/css" href="style.css">
     <title>Care To Share?</title>
+
+    <script>
+      function toggleDarkLight() {
+        var body = document.getElementById("body");
+        var currentClass = body.className;
+        body.className = currentClass == "dark-mode" ? "light-mode" : "dark-mode";
+      }
+    </script>
   </head>
 
-<body>
+<body id="body" class="light-mode">
   <header>
-    <h1 style="text-align:center;" >
-      Care To Share?</h1>
+    <center>
+      <button type="button" name="dark_light" onclick="toggleDarkLight()" title="Toggle dark/light mode">🌛 Dark/Light</button>
+      <h1>Care To Share?</h1>
+    </center>
+    
     <h2 style="text-align:center;">This project is meant for sharing and caring!</h2>
     <div class="description">
       <p style="text-align:center;">

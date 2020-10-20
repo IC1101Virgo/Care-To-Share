@@ -1,0 +1,13 @@
+body.dark-mode {
+  background-color: #222222;
+  color: #DEE4E7;
+  font-family: 'Poppins', sans-serif;
+  padding: 5px;
+}
+
+body.light-mode {
+  background-color: #DEE4E7;
+  color: #222222;
+  font-family: 'Poppins', sans-serif;
+  padding: 5px;
+}
