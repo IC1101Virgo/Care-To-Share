@@ -11,3 +11,29 @@ body.light-mode {
   font-family: 'Poppins', sans-serif;
   padding: 5px;
 }
+.toggle{
+	font-size: 40px; 
+	position: fixed;
+	right: 260px; 
+	top: 20px;
+}
+@media only screen and (max-width:1122px) {
+		header .toggle{
+			right: 22px;
+		}
+	}
+	@media only screen and (max-width:768px) {
+		header .toggle{
+			right: 50px;
+		}
+	}
+	@media only screen and (max-width:600px) {
+		header .toggle{
+			right: 20px;
+		}
+	}
+	@media only screen and (max-width:400px) {
+		header .toggle{
+			right: 25px;
+		}
+	}
