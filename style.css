@@ -12,10 +12,10 @@ body.light-mode {
   padding: 5px;
 }
 .toggle{
-	font-size: 30px; 
+	font-size: 40px; 
 	position: fixed;
 	right: 260px; 
-	top: 25px;
+	top: 20px;
 }
 @media only screen and (max-width:1122px) {
 		header .toggle{
