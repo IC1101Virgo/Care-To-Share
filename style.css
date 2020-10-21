@@ -37,3 +37,9 @@ body.light-mode {
 			right: 25px;
 		}
 	}
+
+	* {cursor: url(images/cursor/cur1165.ani), url(images/cursor/cur1165.png), auto !important;}
+	
+	a {
+		cursor: pointer !important
+	}
