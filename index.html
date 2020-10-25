@@ -1,378 +1,457 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <title>Care To Share?</title>
 
-    <script>
-      function toggleDarkLight() {
-        var body = document.getElementById("body");
-        var currentClass = body.className;
-        body.className = currentClass == "dark-mode" ? "light-mode" : "dark-mode";
-      }
-    </script>
-  </head>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <title>Care To Share?</title>
+
+  <script>
+    function toggleDarkLight() {
+      var body = document.getElementById("body");
+      var toggleElement = document.getElementsByClassName("toggle")[0];
+      toggleElement.classList.toggle('active');
+      var currentClass = body.className;
+      body.className = currentClass == "dark-mode" ? "light-mode" : "dark-mode";
+    }
+  </script>
+</head>
 
 <body id="body" class="light-mode">
   <header>
-  
-	<span  class="toggle" onclick="toggleDarkLight()">🌓</span>
-  
+
+    <span class="toggle" onclick="toggleDarkLight()"></span>
+
     <center>
       <h1>Care To Share?</h1>
     </center>
-    
+
     <h2 style="text-align:center;">This project is meant for sharing and caring!</h2>
     <div class="description">
       <p style="text-align:center;">
-        Hello Contributors! As the name suggest we ask you to share your review of resources which helped get you better in developing and coding. </p>
-        <p style="text-align:center;">  We are a big family here and your opinion counts!</p>
-        <p style="text-align:center;">Share Your Opinion!</p>
+        Hello Contributors! As the name suggest we ask you to share your review of resources which helped get you better
+        in developing and coding. </p>
+      <p style="text-align:center;"> We are a big family here and your opinion counts!</p>
+      <p style="text-align:center;">Share Your Opinion!</p>
 
+
+
+      <!-- ============== TEMPLATE ============== -->
+      <!-- COPY everything BELOW this, from contributor suggest start to end along with the "START" and "END" comment lines -->
+
+      <!-- ________ Contributor's Suggest START ________  -->
+      <div class="card">
+        <p>
+          __________________________________________________________________________________________________________________
+        </p>
+        <p class="name">Enter Your Name:</p>
+
+        <p class="about">
+          Your interests and hobbies:
+        </p>
+        <div class="resources">
+          <p>Review of resources:</p>
+          <ul>
+            <li>
+              <p>Name of Resource</p>
+              <p>Write your Review Here</p>
+            </li>
+            <li>
+              <p>Name of Resource</p>
+              <p>Write your Review</p>
+            </li>
+          </ul>
+          <p>
+            ___________________________________________________________________________________________________________________
+          </p>
+        </div>
+      </div>
+
+      <!-- ________ Contributor's Suggest END ________  -->
+      <!-- COPY everything ABOVE this, from contributor suggest start to end along with the "START" and "END" comment lines -->
+      <!-- ============== ^^^^ TEMPLATE ^^^^ ============== -->
+      <!-- DO NOT modify the TEMPLATE directly, make a copy and paste it below -->
+      <!-- make sure there is one line of space above and below your card -->
+      <!-- ========== Paste YOUR Suggest directly at the end of this HTML document ========== -->
+
+      <!-- ________ Contributor's Suggest START ________  -->
+      <div class="card">
+        <p>
+          __________________________________________________________________________________________________________________
+        </p>
+        <p class="name">Jeremy</p>
+
+        <p class="about">
+          Interests and Hobbies: Tech, programming and movies
+        </p>
+        <div class="resources">
+          <p>Review of resources:</p>
+          <ul>
+            <li>
+              <a href="https://www.geeksforgeeks.org/" target="_blank" title="Suggest 1">
+                GeeksforGeeks.org
+              </a>
+              <p>
+                A great site for beginners and advanced developpers. There are solutions to almost any problem in any
+                programming language.
+                Their solutions are always clean, no-nonsense and have examples.
+                This one of the best tool a programmer can use, and it's free !
+              </p>
+            </li>
+            <li>
+              <a href="https://medium.com/better-programming/" target="_blank" title="Suggest 2">
+                better-programming
+              </a>
+              <p>
+                A nice blog with general-purpose and technical articles about programming.
+                They sum it up pretty simply : "Adviced for programmers"
+              </p>
+            </li>
+            <li>
+              <a href="https://www.youtube.com/watch?v=jfxcJH_OWgE" target="_blank" title="Suggest 3">
+                Five things I wish i knew when I started programming
+              </a>
+              <p>
+                A nice video for beginners who wish to get some advices to begin their programming journey
+              </p>
+            </li>
+          </ul>
+          <p>
+            ___________________________________________________________________________________________________________________
+          </p>
+        </div>
+      </div>
+
+      <!-- ________ Contributor's Suggest END ________  -->
+
+      <!-- ________ Contributor's Suggest START ________  -->
+      <div class="card">
+        <p>
+          __________________________________________________________________________________________________________________
+        </p>
+        <p class="name">Youssef</p>
+
+        <p class="about">
+          Your interests and hobbies: Walking, Running, Movies and Music
+        </p>
+        <div class="resources">
+          <p>Review of resources:</p>
+          <ul>
+            <li>
+              <p>A2 Online Judge</p>
+              <p>A well organised website to train your coding skills</p>
+            </li>
+            <li>
+              <p>CodeForces</p>
+              <p>Compete against top tier coders to enhance your skills throughout problems </p>
+            </li>
+          </ul>
+          <p>
+            ___________________________________________________________________________________________________________________
+          </p>
+        </div>
+      </div>
+
+      <div class="card">
+        <p>
+          __________________________________________________________________________________________________________________
+        </p>
+        <p class="name">Vijayakumar</p>
+
+        <p class="about">
+          Interests and Hobbies: Playing with code and learning new technologies
+        </p>
+        <div class="resources">
+          <p>Resources you want to share:</p>
+          <ul>
+            <li>
+              <a href="https://slashism.com/variable-scope-in-javascript" target="_blank" title="Suggest 1">
+                JavaScript Variable scope
+              </a>
+              <p>
+                A scope is an area/limit where your variables stay and can only be accessed by other parts of the code
+                in the
+                same area/limit
+              </p>
+            </li>
+            <li>
+              <a href="https://vuejsdevelopers.com/2017/05/15/vue-js-what-is-vuex/" target="_blank" title="Suggest 2">
+                A Beginner's Guide To Vuex 4
+              </a>
+              <p>
+                Vuex is an essential tool in the Vue.js ecosystem. But developers new to Vuex may be repelled by jargon
+                terms
+                like "state management pattern" and confused as to what they actually need it for.
+              </p>
+            </li>
+            <li>
+              <a href="https://www.producthunt.com/posts/baby-git" target="_blank" title="Suggest 3">
+                Baby Git Guidebook for Developers
+              </a>
+              <p>
+                The Baby Git Guidebook for Developers dives into the initial commit of Git's C code in detail to help
+                developers learn what makes Git tick. If you're curious how Git works under the hood, you'll enjoy this.
+              </p>
+            </li>
+          </ul>
+          <p>
+            ___________________________________________________________________________________________________________________
+          </p>
+        </div>
+      </div>
+
+      <!-- ________ Contributor's Suggest START ________  -->
+      <div class="card">
+        <p>
+          __________________________________________________________________________________________________________________
+        </p>
+        <p class="name">Mohammad Reza</p>
+
+        <p class="about">
+          Your interests and hobbies: programming, football, and video games
+        </p>
+        <div class="resources">
+          <p>Review of resources:</p>
+          <ul>
+            <li>
+              <a href="https://www.freecodecamp.org/" target="_blank" title="Suggest 1">freeCodeCamp</a>
+              <p>freeCodeCamp is a free online web development bootcamp. You can learn web development at you own pace
+                and
+                received a certificate after you have completed a web development path (currently, there are 10 paths).
+              </p>
+            </li>
+            <li>
+              <a href="https://javascript30.com/" target="_blank" title="Suggest 2">JavaScript30</a>
+              <p>You can learn vanilla JavaScript in 30 days by building 30 different JavaScript projects using only
+                vanilla
+                JavaScript without any framework (it's a free course).</p>
+            </li>
+            <li>
+              <a href="https://www.theodinproject.com/" target="_blank" title="Suggest 3">The Odin Project</a>
+              <p>The Odin Project is a free online web development bootcamp that is focusing on Ruby and Ruby on Rails.
+              </p>
+            </li>
+          </ul>
+          <p>
+            ___________________________________________________________________________________________________________________
+          </p>
+        </div>
+      </div>
+
+      <!-- ________ Contributor's Suggest END ________  -->
+
+
+      <!-- ________ Contributor's Suggest START ________  -->
+      <div class="card">
+        <p>
+          __________________________________________________________________________________________________________________
+        </p>
+        <p class="name">Tanushree C</p>
+
+        <p class="about">
+          My interests and hobbies: I love travelling, binge watching shows and movies and listening to music
+        </p>
+        <div class="resources">
+          <p>Review of resources:</p>
+          <ul>
+            <li>
+              <a href="https://www.uplabs.com/" target="_blank" title="Uplabs">Uplabs</a>
+              <p>A site for design and development inspiration. It includes a vast repository of resources spanning
+                various
+                categories and tech</p>
+            </li>
+            <li>
+              <a href="https://www.behance.net/" target="_blank" title="Behance">Behance</a>
+              <p>Another great site for design inspiration. It includes resources made by various illustators.</p>
+            </li>
+          </ul>
+          <p>
+            ___________________________________________________________________________________________________________________
+          </p>
+        </div>
+      </div>
+
+      <!-- ________ Contributor's Suggest END ________  -->
+
+      <!-- ________ Contributor's Suggest START ________  -->
+
+      <div class="card">
+        <p>
+          __________________________________________________________________________________________________________________
+        </p>
+        <p class="name">Squizzi3</p>
+
+        <p class="about">
+          Interests and Hobbies: I like tech, programming, workout in the gym, spending my time beeing a firefighter
+        </p>
+        <div class="resources">
+          <p>Review of resources:</p>
+          <br>
+          <p>Android Coding Channels</p>
+          <br>
+          <ul>
+            <li>
+              <a href="https://www.youtube.com/channel/UC_Fh8kvtkVPkeihBs42jGcA" target="_blank" title="Suggest 1">
+                Coding in Flow
+              </a>
+              <p>
+                Coding in Flow is a nice android coding channel. He does very detailed programming tutorials, with a
+                relaxed
+                and clear voice.
+                His videos are for beginners and also advanced developers.
+              </p>
+            </li>
+            <li>
+              <a href="https://www.youtube.com/channel/UCKNTZMRHPLXfqlbdOI7mCkg" target="_blank" title="Suggest 2">
+                Philipp Lackner
+              </a>
+              <p>
+                Also a nice android programming channel. Philipps has multiple series about the basics of android
+                development,
+                kotlin and firebase.
+                He explain modern technics with great examples like a running tracker with google maps or developing a
+                spotify
+                app clone.
+              </p>
+            </li>
+            <li>
+              <a href="https://www.youtube.com/c/CodingWithMitch" target="_blank" title="Suggest 3">
+                Coding with Mitch
+              </a>
+              <p>
+                Last but not least Coding with Mitch. He has also many playlists about basic android development,
+                firebase,
+                dagger and other frameworks.
+                On his channel you can also find tutorials on testing mobile applications, which is a important step in
+                the
+                development lifecycle.
+              </p>
+            </li>
+          </ul>
+          <p>
+            ___________________________________________________________________________________________________________________
+          </p>
+        </div>
+      </div>
+
+      <!-- ________ Contributor's Suggest END ________  -->
+
+      <!-- ________ Contributor's Suggest START ________  -->
+      <div class="card">
+        <p>
+          __________________________________________________________________________________________________________________
+        </p>
+        <p class="name">saguins</p>
+
+        <p class="about">
+          My interests and hobbies: gaming, listening to music, reading a book.
+        </p>
+        <div class="resources">
+          <p>Review of resources:</p>
+          <ul>
+            <li>
+
+              <a href="https://youtu.be/f02mOEt11OQ" target="_blank"
+                title="code-fi / lofi beats to code/relax to">code-fi /
+                lofi beats to code/relax to</a>
+              <p>One of my favorite music to listening while coding. This make me feel relaxing even though my project
+                is on
+                fire.</p>
+            </li>
+            <li>
+              <a href="https://dribbble.com/" target="_blank" title="Dribbble">Dribbble</a>
+              <p>This website is full of design inspiration! I relly love to take a look at this website while design
+                UX/UI.
+                Must recommend.</p>
+            </li>
+          </ul>
+          <p>
+            ___________________________________________________________________________________________________________________
+          </p>
+        </div>
+      </div>
+
+      <!-- ________ Contributor's Suggest END ________  -->
+
+      <!-- ________ Contributor's Suggest START ________  -->
+      <div class="card">
+        <p>
+          __________________________________________________________________________________________________________________
+        </p>
+        <p class="name">Sandra</p>
+
+        <p class="about">
+          My interests and hobbies: I love play with my cat, travell, go to the concert and the theatre.
+        </p>
+        <div class="resources">
+          <p>Review of resources:</p>
+          <ul>
+            <li>
+              <a href="https://github.com/PyLadiesMadrid" target="_blank" title="Uplabs">PyLadiesMadrid</a>
+              <p>A site for learn Python. You can learn with teory and practices.</p>
+            </li>
+            <li>
+              <a href="https://github.com/shahraizali/awesome-django" target="_blank" title="Behance">Django</a>
+              <p>A site for learn DJango. It is a complate resource.</p>
+            </li>
+            <li>
+              <a href="https://www.w3schools.com/" target="_blank" title="Behance">W3schools</a>
+              <p>You can choose who lenguage was learn. First is a explication then you can see the example and can
+                modificate
+                the code for
+                practice.</p>
+            </li>
+          </ul>
+          <p>
+            ___________________________________________________________________________________________________________________
+          </p>
+        </div>
+      </div>
+
+      <!-- ________ Contributor's Suggest END ________  -->
+
+      <!-- ________ Contributor's Suggest START ________  -->
+      <div class="card">
+        <p>
+          __________________________________________________________________________________________________________________
+        </p>
+        <p class="name">Pradheep Kumar</p>
+
+        <p class="about">
+          Your interests and hobbies: listening to music, playing games
+        </p>
+        <div class="resources">
+          <p>Review of resources:</p>
+          <ul>
+            <li>
+              <a href="https://hugogiraudel.com/2020/05/18/using-calc-to-figure-out-optimal-line-height/"
+                target="_blank" title="line-height">Figure out optimal line-height</a>
+              <p>How the line height is applied by browser, we can use line-height most recommended way to handle it.
+              </p>
+            </li>
+            <li>
+              <a href="https://csswizardry.com/2020/05/the-fastest-google-fonts/" target="_blank"
+                title="fast-google-font">Fastest Google Fonts</a>
+              <p>The way to use web fonts to faster nowadays.
+              </p>
+            </li>
+            <li>
+              <a href="https://dohliam.github.io/dropin-minimal-css/" target="_blank" title="All-CSS">Minimal CSS</a>
+              <p>
+                This page provides an overview of minimal CSS boilerplate frameworks. To switch to a different
+                stylesheet
+              </p>
+            </li>
+          </ul>
+          <p>
+            ___________________________________________________________________________________________________________________
+          </p>
+        </div>
+      </div>
+
+      <!-- ________ Contributor's Suggest END ________  -->
 </body>
 
-<!-- ============== TEMPLATE ============== -->
-<!-- COPY everything BELOW this, from contributor suggest start to end along with the "START" and "END" comment lines -->
-
-<!-- ________ Contributor's Suggest START ________  -->
-<div class="card">
-  <p>__________________________________________________________________________________________________________________</p>
-<p class="name">Enter Your Name:</p>
-
-<p class="about">
-  Your interests and hobbies:
-</p>
-<div class="resources">
-  <p>Review of resources:</p>
-  <ul>
-    <li>
-      <p>Name of Resource</p>
-      <p>Write your Review Here</p>
-    </li>
-    <li>
-      <p>Name of Resource</p>
-      <p>Write your Review</p>
-    </li>
-  </ul>
-  <p>___________________________________________________________________________________________________________________</p>
-</div>
-</div>
-
-<!-- ________ Contributor's Suggest END ________  -->
-<!-- COPY everything ABOVE this, from contributor suggest start to end along with the "START" and "END" comment lines -->
-<!-- ============== ^^^^ TEMPLATE ^^^^ ============== -->
-<!-- DO NOT modify the TEMPLATE directly, make a copy and paste it below -->
-<!-- make sure there is one line of space above and below your card -->
-<!-- ========== Paste YOUR Suggest directly at the end of this HTML document ========== -->
-
- <!-- ________ Contributor's Suggest START ________  -->
-<div class="card">
-  <p>__________________________________________________________________________________________________________________</p>
-<p class="name">Jeremy</p>
-
-<p class="about">
-  Interests and Hobbies: Tech, programming and movies
-</p>
-<div class="resources">
-  <p>Review of resources:</p>
-  <ul>
-    <li>
-      <a href="https://www.geeksforgeeks.org/" target="_blank" title="Suggest 1">
-        GeeksforGeeks.org
-      </a>
-      <p>
-        A great site for beginners and advanced developpers. There are solutions to almost any problem in any programming language.
-        Their solutions are always clean, no-nonsense and have examples.
-        This one of the best tool a programmer can use, and it's free !
-      </p>
-    </li>
-    <li>
-      <a href="https://medium.com/better-programming/" target="_blank" title="Suggest 2">
-        better-programming
-      </a>
-      <p>
-        A nice blog with general-purpose and technical articles about programming.
-        They sum it up pretty simply : "Adviced for programmers"
-      </p>
-    </li>
-    <li>
-      <a href="https://www.youtube.com/watch?v=jfxcJH_OWgE" target="_blank" title="Suggest 3">
-        Five things I wish i knew when I started programming
-      </a>
-      <p>
-        A nice video for beginners who wish to get some advices to begin their programming journey
-      </p>
-    </li>
-  </ul>
-  <p>___________________________________________________________________________________________________________________</p>
-</div>
-</div>
-
-<!-- ________ Contributor's Suggest END ________  -->
-
-<!-- ________ Contributor's Suggest START ________  -->
-<div class="card">
-  <p>__________________________________________________________________________________________________________________</p>
-<p class="name">Youssef</p>
-
-<p class="about">
-  Your interests and hobbies: Walking, Running, Movies and Music
-</p>
-<div class="resources">
-  <p>Review of resources:</p>
-  <ul>
-    <li>
-      <p>A2 Online Judge</p>
-      <p>A well organised website to train your coding skills</p>
-    </li>
-    <li>
-      <p>CodeForces</p>
-      <p>Compete against top tier coders to enhance your skills throughout problems </p>
-    </li>
-  </ul>
-  <p>___________________________________________________________________________________________________________________</p>
-</div>
-</div>
-
-<div class="card">
-  <p>__________________________________________________________________________________________________________________</p>
-<p class="name">Vijayakumar</p>
-
-<p class="about">
-  Interests and Hobbies: Playing with code and learning new technologies
-</p>
-<div class="resources">
-  <p>Resources you want to share:</p>
-  <ul>
-    <li>
-      <a href="https://slashism.com/variable-scope-in-javascript" target="_blank" title="Suggest 1">
-        JavaScript Variable scope
-      </a>
-	  <p>
-       A scope is an area/limit where your variables stay and can only be accessed by other parts of the code in the same area/limit
-      </p>
-    </li>
-    <li>
-      <a href="https://vuejsdevelopers.com/2017/05/15/vue-js-what-is-vuex/" target="_blank" title="Suggest 2">
-        A Beginner's Guide To Vuex 4
-      </a>
-	  <p>
-       Vuex is an essential tool in the Vue.js ecosystem. But developers new to Vuex may be repelled by jargon terms like "state management pattern" and confused as to what they actually need it for.
-      </p>
-    </li>
-    <li>
-      <a href="https://www.producthunt.com/posts/baby-git" target="_blank" title="Suggest 3">
-        Baby Git Guidebook for Developers
-      </a>
-	  <p>
-        The Baby Git Guidebook for Developers dives into the initial commit of Git's C code in detail to help developers learn what makes Git tick. If you're curious how Git works under the hood, you'll enjoy this.
-      </p>
-    </li>
-  </ul>
-  <p>___________________________________________________________________________________________________________________</p>
-</div>
-</div>
-
-<!-- ________ Contributor's Suggest START ________  -->
-<div class="card">
-  <p>__________________________________________________________________________________________________________________</p>
-<p class="name">Mohammad Reza</p>
-
-<p class="about">
-  Your interests and hobbies: programming, football, and video games
-</p>
-<div class="resources">
-  <p>Review of resources:</p>
-  <ul>
-    <li>
-      <a href="https://www.freecodecamp.org/" target="_blank" title="Suggest 1">freeCodeCamp</a>
-      <p>freeCodeCamp is a free online web development bootcamp. You can learn web development at you own pace and received a certificate after you have completed a web development path (currently, there are 10 paths).</p>
-    </li>
-    <li>
-      <a href="https://javascript30.com/" target="_blank" title="Suggest 2">JavaScript30</a>
-      <p>You can learn vanilla JavaScript in 30 days by building 30 different JavaScript projects using only vanilla JavaScript without any framework (it's a free course).</p>
-    </li>
-    <li>
-      <a href="https://www.theodinproject.com/" target="_blank" title="Suggest 3">The Odin Project</a>
-      <p>The Odin Project is a free online web development bootcamp that is focusing on Ruby and Ruby on Rails.</p>
-    </li>
-  </ul>
-  <p>___________________________________________________________________________________________________________________</p>
-</div>
-</div>
-
-<!-- ________ Contributor's Suggest END ________  -->
-	  
-	  
- <!-- ________ Contributor's Suggest START ________  -->
-<div class="card">
-  <p>__________________________________________________________________________________________________________________</p>
-<p class="name">Tanushree C</p>
-
-<p class="about">
-  My interests and hobbies: I love travelling, binge watching shows and movies and listening to music
-</p>
-<div class="resources">
-  <p>Review of resources:</p>
-  <ul>
-    <li>
-	<a href="https://www.uplabs.com/" target="_blank" title="Uplabs">Uplabs</a>
-      <p>A site for design and development inspiration. It includes a vast repository of resources spanning various categories and tech</p>
-    </li>
-    <li>
-	<a href="https://www.behance.net/" target="_blank" title="Behance">Behance</a>
-      <p>Another great site for design inspiration. It includes resources made by various illustators.</p>
-    </li>
-  </ul>
-  <p>___________________________________________________________________________________________________________________</p>
-</div>
-</div>
-
-<!-- ________ Contributor's Suggest END ________  -->
-	  
-<!-- ________ Contributor's Suggest START ________  -->
-
-<div class="card">
-  <p>__________________________________________________________________________________________________________________</p>
-<p class="name">Squizzi3</p>
-
-<p class="about">
-  Interests and Hobbies: I like tech, programming, workout in the gym, spending my time beeing a firefighter
-</p>
-<div class="resources">
-  <p>Review of resources:</p>
-  <br>
-  <p>Android Coding Channels</p>
-  <br>
-  <ul>
-    <li>
-      <a href="https://www.youtube.com/channel/UC_Fh8kvtkVPkeihBs42jGcA" target="_blank" title="Suggest 1">
-        Coding in Flow
-      </a>
-      <p>
-        Coding in Flow is a nice android coding channel. He does very detailed programming tutorials, with a relaxed and clear voice.
-	His videos are for beginners and also advanced developers.
-      </p>
-    </li>
-    <li>
-      <a href="https://www.youtube.com/channel/UCKNTZMRHPLXfqlbdOI7mCkg" target="_blank" title="Suggest 2">
-        Philipp Lackner
-      </a>
-      <p>
-        Also a nice android programming channel. Philipps has multiple series about the basics of android development, kotlin and firebase.
-	He explain modern technics with great examples like a running tracker with google maps or developing a spotify app clone.
-      </p>
-    </li>
-    <li>
-      <a href="https://www.youtube.com/c/CodingWithMitch" target="_blank" title="Suggest 3">
-        Coding with Mitch
-      </a>
-      <p>
-        Last but not least Coding with Mitch. He has also many playlists about basic android development, firebase, dagger and other frameworks.
-	On his channel you can also find tutorials on testing mobile applications, which is a important step in the development lifecycle.
-      </p>
-    </li>
-  </ul>
-  <p>___________________________________________________________________________________________________________________</p>
-</div>
-</div>
-
-<!-- ________ Contributor's Suggest END ________  -->
-
-<!-- ________ Contributor's Suggest START ________  -->
-<div class="card">
-  <p>__________________________________________________________________________________________________________________</p>
-<p class="name">saguins</p>
-
-<p class="about">
-  My interests and hobbies: gaming, listening to music, reading a book.
-</p>
-<div class="resources">
-  <p>Review of resources:</p>
-  <ul>
-    <li>
-
-	<a href="https://youtu.be/f02mOEt11OQ" target="_blank" title="code-fi / lofi beats to code/relax to">code-fi / lofi beats to code/relax to</a>
-      <p>One of my favorite music to listening while coding. This make me feel relaxing even though my project is on fire.</p>
-    </li>
-    <li>
-	<a href="https://dribbble.com/" target="_blank" title="Dribbble">Dribbble</a>
-      <p>This website is full of design inspiration! I relly love to take a look at this website while design UX/UI. Must recommend.</p>
-    </li>
- </ul>
-  <p>___________________________________________________________________________________________________________________</p>
-</div>
-</div>
-
-<!-- ________ Contributor's Suggest END ________  -->
-    
-    <!-- ________ Contributor's Suggest START ________  -->
- <div class="card">
-  <p>__________________________________________________________________________________________________________________</p>
-<p class="name">Sandra</p>
-
-<p class="about">
-  My interests and hobbies: I love play with my cat, travell, go to the concert and the theatre.
-</p>
-<div class="resources">
-  <p>Review of resources:</p>
-  <ul>
-    <li>
-	<a href="https://github.com/PyLadiesMadrid" target="_blank" title="Uplabs">PyLadiesMadrid</a>
-      <p>A site for learn Python. You can learn with teory and practices.</p>
-    </li>
-    <li>
-	<a href="https://github.com/shahraizali/awesome-django" target="_blank" title="Behance">Django</a>
-      <p>A site for learn DJango. It is a complate resource.</p>
-    </li>
-    <li>
-      <a href="https://www.w3schools.com/" target="_blank" title="Behance">W3schools</a>
-          <p>You can choose who lenguage was learn. First is a explication then you can see the example and can modificate the code for
-            practice.</p>
-        </li>
-  </ul>
-  <p>___________________________________________________________________________________________________________________</p>
-</div>
-</div>
-
-<!-- ________ Contributor's Suggest END ________  --> 
-
-<!-- ________ Contributor's Suggest START ________  -->
-<div class="card">
-  <p>__________________________________________________________________________________________________________________
-  </p>
-  <p class="name">Pradheep Kumar</p>
-
-  <p class="about">
-    Your interests and hobbies: listening to music, playing games
-  </p>
-  <div class="resources">
-    <p>Review of resources:</p>
-    <ul>
-      <li>
-        <a href="https://hugogiraudel.com/2020/05/18/using-calc-to-figure-out-optimal-line-height/" target="_blank" title="line-height">Figure out optimal line-height</a>
-        <p>How the line height is applied by browser, we can use line-height most recommended way to handle it.
-        </p>
-      </li>
-      <li>
-        <a href="https://csswizardry.com/2020/05/the-fastest-google-fonts/" target="_blank" title="fast-google-font">Fastest Google Fonts</a>
-        <p>The way to use web fonts to faster nowadays.
-        </p>
-      </li>
-      <li>
-        <a href="https://dohliam.github.io/dropin-minimal-css/" target="_blank" title="All-CSS">Minimal CSS</a>
-        <p>
-          This page provides an overview of minimal CSS boilerplate frameworks. To switch to a different stylesheet
-        </p>
-      </li>
-    </ul>
-    <p>
-      ___________________________________________________________________________________________________________________
-    </p>
-  </div>
-</div>
-
-<!-- ________ Contributor's Suggest END ________  -->
+</html>
